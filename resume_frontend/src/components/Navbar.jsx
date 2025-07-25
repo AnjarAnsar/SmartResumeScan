@@ -18,7 +18,7 @@ function Navbar() {
         
       </ul>
     </div>
-    <Link to="/" className="btn btn-ghost text-xl">SmartResumeGen</Link>
+    <Link to="/" className="btn btn-ghost text-xl">SmartResumeScan</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

@@ -74,7 +74,7 @@ const LandingPage = () => {
             <div className="card bg-base-100 shadow-xl">
               <div className="card-body">
                 <p>
-                  "This AI resume maker saved me so much time! My resume looks
+                  "This SmartResumeScan saved me so much time! My resume looks
                   professional and got me multiple interviews."
                 </p>
                 <div className="flex items-center mt-4">
@@ -139,20 +139,20 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="footer-title">AI Resume Maker</h4>
+              <h4 className="footer-title">SmartResumeScan</h4>
               <p>Your go-to tool for creating professional resumes with AI.</p>
             </div>
-            <div>
+          <div>
               <h4 className="footer-title">Quick Links</h4>
-              <a href="#" className="link link-hover">
+              <Link to={'/about'} className="link link-hover">
                 About Us
-              </a>
-              <a href="#" className="link link-hover">
-                Features
-              </a>
-              <a href="#" className="link link-hover">
-                Contact
-              </a>
+              </Link>
+              <Link to={'/services'} className="link link-hover">
+                Services
+              </Link>
+              <Link to={'/contact'} className="link link-hover">  
+                Contact Us
+              </Link>
             </div>
             <div>
               <h4 className="footer-title">Legal</h4>
